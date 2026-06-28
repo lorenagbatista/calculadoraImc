@@ -2,7 +2,7 @@ Calculadora de IMC — em Java
 
 Sistema de calculadora para o cálculo de IMC, desenvolvido em Java, com o objetivo de colocar em prática os principais conceitos de Orientação a Objetos.
 
-# Conceitos OOP demonstrados
+Conceitos OOP demonstrados
 
 | Conceito | Onde |
 |----------|------|
@@ -16,21 +16,21 @@ Sistema de calculadora para o cálculo de IMC, desenvolvido em Java, com o objet
 | **Recursão** | `HistoricoIMC.exibirRecursivo(int indice)` imprime registros recursivamente |
 | **Controle de fluxo** | `switch` no menu, `while` no loop principal, `if/else if` nas classificações |
 
-# Pré-requisitos
+Pré-requisitos
 
 - **Java 17** ou superior (testado com Java 21)
 - **Maven 3.8+** — para build e execução simplificada
 
-### Verificar instalação
+# Verificar instalação
 
 ```bash
 java -version
 mvn -version
 ```
 
-## Compilação e Execução
+#Compilação e Execução
 
-### Usando Maven (recomendado)
+Usando Maven (recomendado)
 
 ```bash
 # 1. Clone ou extraia o projeto
@@ -49,7 +49,7 @@ mvn clean package
 java -jar target/calculadora-imc.jar
 ```
 
-### Usando apenas javac/java (sem Maven)
+Usando apenas javac/java (sem Maven)
 
 ```bash
 # 1. Criar diretório de saída
@@ -62,7 +62,7 @@ find src/main/java -name "*.java" | xargs javac -encoding UTF-8 -d out
 java -cp out com.imc.Main
 ```
 
-### Executar testes
+Executar testes
 
 ```bash
 mvn test
